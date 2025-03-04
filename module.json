@@ -2,8 +2,8 @@
   "id": "OnlyWarAddon",
   "title": "Only War Addon",
   "version": "1.0.0",
-  "manifest": "https://raw.githubusercontent.com/Squird5/OnlyWarAddon/refs/heads/main/module.json",
-  "download": "https://github.com/Squird5/OnlyWarAddon/raw/refs/heads/main/OnlyWarAddon.zip",
+  "manifest": "https://raw.githubusercontent.com/Squird5/OnlyWarAddon/main/module.json",
+  "download": "https://github.com/Squird5/OnlyWarAddon/raw/main/OnlyWarAddon.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
