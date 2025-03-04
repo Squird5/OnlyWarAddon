@@ -1,0 +1,83 @@
+{
+  "id": "OnlyWarAddon",
+  "title": "Only War Addon",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dark-heresy",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/moo-man/DarkHeresy2E-FoundryVTT/master/system.json",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "dh2e_resources",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Nosferaschu/dh2e_resources/main/module.json",
+        "compatibility": {}
+    }
+  ]
+  },
+  "description": "An Expansion for Dark Heresy 2nd Edition",
+  "authors": [
+    {
+      "name": "Squird5"
+    }
+  ],
+  "packs": [
+    {
+      "name": "only-war-items",
+      "label": "Only War Items",
+      "path": "packs/only-war-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dark-heresy",
+      "flags": {}
+    },
+    {
+      "name": "only-war-journals",
+      "label": "Only War Journals",
+      "path": "packs/only-war-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dark-heresy",
+      "flags": {}
+    },
+    {
+      "name": "only-war-roll-tables",
+      "label": "Only War Roll Tables",
+      "path": "packs/only-war-roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dark-heresy",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Only War Compendium",
+      "sorting": "m",
+      "color": "#80c448",
+      "packs": [
+        "only-war-items",
+        "only-war-journals",
+        "only-war-roll-tables"
+      ]
+    }
+  ]
+}
